@@ -1,0 +1,232 @@
+/* GENERAL */
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body2{
+    margin: 50px;
+}
+nav {
+    background-color: #a200ff;
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 15px;
+}
+
+    nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #5100ff;
+    color: white;
+    border-radius: 5px;
+}
+
+header div {
+    text-align: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+} 
+footer a p{
+    color: white;
+}
+
+
+.descripcion{
+    margin-right: 50px;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+
+    footer{
+        margin: 0px;
+        padding: 10px;
+        background-color: #a200ff;
+    }
+
+    .caja_celular{
+        margin: 50px 50px;
+        width: auto;
+        height: auto;
+        position: relative;
+        animation-name: float;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+
+    .container_uno div{
+        display: flex;
+        /* background-color: #a200ff; */
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 10px;
+    }
+.imagen{
+    width: 500px;
+}
+
+.container_uno p{
+    margin: 20px;
+    padding: 50px;
+
+}
+
+
+/* --------- */
+/* celulares */
+
+.pagar{
+    text-align: right;
+}
+
+
+/* noticias */
+.container_dos{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+}
+
+/*  -------------*/
+
+    #productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto {
+    text-align: center;
+    margin: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+}
+
+#carrito {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+#total-carrito {
+    font-weight: bold;
+    text-align: left;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.contactos div {
+    margin-bottom: 10px;
+}
+.contactos span {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactos label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contactos input[type="text"],
+.contactos textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.contactos textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contactos em {
+    color: red;
+    font-style: normal;
+}
+
+.contactos button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contactos button:hover {
+    background-color: #3e8e41;
+}
+hr {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+}
+
+
+.boton{
+    margin: 3px;
+    background-color: #a200ff;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
